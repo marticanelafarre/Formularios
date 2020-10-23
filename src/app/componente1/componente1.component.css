@@ -18,7 +18,7 @@ input, textarea{
   box-sizing: border-box;
 }
 
-input[type="submit"]{
+input[type="button"]{
   background: blue;
   color: white;
   border: none;
@@ -30,6 +30,12 @@ input[type=submit]:hover{
 }
 
 #inCorrecto{
+  margin-top: -20px;
+  color: red;
+  font-size: small;
+}
+
+#demasiadoCorto{
   margin-top: -20px;
   color: red;
   font-size: small;

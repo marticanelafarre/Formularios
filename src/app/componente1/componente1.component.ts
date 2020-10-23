@@ -25,8 +25,11 @@ export class Componente1Component implements OnInit {
     } else{
       this.mostrarIntro="Incorrecto";
     }
-    if(texto.value>2){
-      this.mostrarIntro2="demasiadoCorto";
+    if(texto.lenght<2){
+      this.mostrarIntro2="no_corto";
+    } else{
+      this.mostrarIntro2="corto";
+
     }
   }
 }
